@@ -1,0 +1,33 @@
+{
+  "name": "autenticacion",
+  "version": "1.0.0",
+  "description": "autenticacion con nodejs y jwt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "dotenv -e .env -- nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "jet"
+  ],
+  "author": "emily galdos",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/nodemailer": "^6.4.7",
+    "dotenv-cli": "^7.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
